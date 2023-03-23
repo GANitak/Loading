@@ -1,0 +1,5 @@
+baseURL = 'http://GANitak.io/'
+languageCode = 'en-us'
+title = 'GANitak.io'
+
+theme= 'PaperMod'
