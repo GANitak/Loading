@@ -1,3 +1,6 @@
 {{- define "main" }}
-<div class="not-found">404</div>
+<div class="not-found">404
+<br/> It appears your request failed to find the page.<br/>
+<br/><a href="{{ "/" | relURL }}" color="green">Back to home page</a></p>
+</div>
 {{- end }}{{/* end main */ -}}

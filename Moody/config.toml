@@ -63,3 +63,7 @@ offlineSearch = false
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
+
+# defaultTheme: light
+defaultTheme = "dark"
+#defaultTheme: auto # to switch between dark or light according to browser theme
