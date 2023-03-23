@@ -10,3 +10,39 @@ description = "Space to think & write"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Journal'
+  pageRef = '/Journal'
+  weight = 20
+[[menu.main]]
+  name = 'Quotes'
+  pageRef = '/quotes'
+  weight = 30
+[[menu.main]]
+  name = 'Network'
+  pageRef = '/Network'
+  weight = 10
+[[menu.main]]
+  name = 'Neat'
+  pageRef = '/Neat'
+  weight = 20
+[[menu.main]]
+  name = 'Sky'
+  pageRef = '/Sky'
+  weight = 30
+
+
+[[menu.footer]]
+  name = 'Terms'
+  pageRef = '/terms'
+  weight = 5
+[[menu.footer]]
+  name = 'Privacy'
+  pageRef = '/privacy'
+  weight = 10
