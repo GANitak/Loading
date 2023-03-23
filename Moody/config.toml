@@ -3,3 +3,10 @@ languageCode = 'en-us'
 title = 'GANitak.io'
 
 theme= 'PaperMod'
+
+[languages]
+[languages.en]
+description = "Space to think & write"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
