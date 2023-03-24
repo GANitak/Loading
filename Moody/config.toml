@@ -46,3 +46,24 @@ weight = 1
   name = 'Privacy'
   pageRef = '/privacy'
   weight = 10
+
+
+[params]
+# Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+github_repo = "https://github.com/GANitak/Loading/Moody"
+
+#Google Custom Search Engine ID. Remove or comment out to disable search.
+gcs_engine_id = ""
+
+# Enable Algolia DocSearch
+algolia_docsearch = false
+
+# Enable Lunr.js offline search
+offlineSearch = false
+
+# Enable syntax highlighting and copy buttons on code blocks with Prism
+prism_syntax_highlighting = false
+
+# defaultTheme: light
+defaultTheme = "dark"
+#defaultTheme: auto # to switch between dark or light according to browser theme
