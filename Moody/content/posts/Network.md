@@ -7,3 +7,5 @@ layout: single.html
 ---
 
 ## Here is where tech-network knowledge is posted
+
+*Understand the infrastructure, so you may change it*
