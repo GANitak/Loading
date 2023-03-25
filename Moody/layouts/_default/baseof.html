@@ -14,16 +14,20 @@
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}} 
-    
-    What now
+    <i>What now</i>
     <main class="main">
         {{- block "main" . }}{{ end }}
-        
-        # I wish to know how it always is, there to stay<br/>
+<table class="greeny-box">
+    <thead>
+        <tr>
+            <th># I wish to know how it always is, there to stay<br/>
         # Perhaps it never is, in a universe in perpetual motion <br/>
         # Appreciate the beauty, in this way<br/>
-        # Add a touch to this life notion
-</main>
+        # Add a touch to this life notion</th>
+        </tr>
+    </thead>
+</tbody>
+</table>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}        
 </body>
 </html>

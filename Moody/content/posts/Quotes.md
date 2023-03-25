@@ -1,6 +1,6 @@
 ---
 title: "Quotes"
-date: 2023-03-23T17:10:05+01:00
+date: 2023-03-23T17:13:05+01:00
 draft: false
 layout: baseof
 
@@ -14,5 +14,3 @@ layout: baseof
 
 Also a time for the abolition of slavery, all written into what is known as the 
 **Declaration of the Rights of Man and Citizen of 1793**
-
-

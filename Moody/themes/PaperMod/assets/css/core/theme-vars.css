@@ -1,6 +1,6 @@
 :root {
     --gap: 24px;
-    --content-gap: 20px;
+    --content-gap: 33px;
     --nav-width: 1024px;
     --main-width: 720px;
     --header-height: 60px;
@@ -35,4 +35,22 @@
 
 .dark.list {
     background: var(--theme);
+}
+.greeny-box {
+    -ms-flex-item-align: center;
+    border-collapse: collapse;
+    margin: 100px 25px 50px;
+    font-size: 0.9em;
+    font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
+    min-width: 100px;
+    max-width: 502px;
+    box-shadow: 0 0 20px #369f14;
+}
+
+.post-meta {
+    -ms-flex-item-align: center;
+}
+
+.Content {
+    -ms-flex-item-align: center;
 }
