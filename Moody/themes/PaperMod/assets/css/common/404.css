@@ -2,7 +2,6 @@
     position: flex;
     left: 0;
     right: 0;
-    display: flex-center;
     align-items: center;
     justify-content: center;
     color :brown;
@@ -13,9 +12,9 @@
 
 .back-to-home {
     display: block;
-        left: 10px ;
+        left: 0px ;
         right: 0;
-        display: flex-center;
+        text-align: right;
         align-items: center;
         justify-content: center;
         color: #369f14;
