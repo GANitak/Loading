@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
-
 <head>
     {{- partial "head.html" . }}
 </head>
@@ -14,16 +13,24 @@
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}} 
-    
-    What now
+    <i>What now</i>
     <main class="main">
         {{- block "main" . }}{{ end }}
-        
-        # I wish to know how it always is, there to stay<br/>
-        # Perhaps it never is, in a universe in perpetual motion <br/>
-        # Appreciate the beauty, in this way<br/>
-        # Add a touch to this life notion
-</main>
+<table class="greeny-box">
+    Static content across the baseof.html page
+    <thead>
+        <tr>
+            <th>
+                Let the wind show you the way<br/>
+                I feel that my lonesome is shared <br/>
+                So am i really alone? <br/>
+                There by the Sunset, coursing it's way in<br/>
+                 the horizon
+            </th>
+        </tr>
+    </thead>
+</tbody>
+</table>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}        
 </body>
 </html>
