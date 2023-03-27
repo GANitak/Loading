@@ -37,16 +37,14 @@ weight = 1
   pageRef = '/Sky'
   weight = 30
 
-
 [[menu.footer]]
   name = 'Terms'
   pageRef = '/terms'
-  weight = 5
+  weight = 15
 [[menu.footer]]
   name = 'Privacy'
   pageRef = '/privacy'
   weight = 10
-
 
 [params]
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
