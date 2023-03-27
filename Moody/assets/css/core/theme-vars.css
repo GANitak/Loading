@@ -1,8 +1,8 @@
 :root {
-    --gap: 24px;
+    --gap: 63px;
     --content-gap: 33px;
     --nav-width: 1024px;
-    --main-width: 720px;
+    --main-width: 992px;
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
@@ -14,7 +14,7 @@
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --border: rgb(155, 185, 118);
 }
 
 .dark {
@@ -36,6 +36,8 @@
 .dark.list {
     background: var(--theme);
 }
+
+.table.greeny-box,
 .greeny-box {
     -ms-flex-item-align: center;
     border-collapse: collapse;
@@ -45,5 +47,12 @@
     min-width: 100px;
     max-width: 502px;
     box-shadow: 0 0 20px #369f14;
+    padding: 12px 65px 12px;
+}
+
+.main.main{
+    min-width: 1024px;
+    max-width: 1300px;
+    box-shadow: 0 0 72px #369f14;
     padding: 12px 65px 12px;
 }
