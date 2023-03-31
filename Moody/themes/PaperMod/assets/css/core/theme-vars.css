@@ -1,5 +1,5 @@
 :root {
-    --gap: 24px;
+    --gap: 22px;
     --content-gap: 33px;
     --nav-width: 1024px;
     --main-width: 720px;
@@ -46,4 +46,8 @@
     max-width: 502px;
     box-shadow: 0 0 20px #369f14;
     padding: 12px 65px 12px;
+}
+
+article.post-single {
+    --padding: 16px, 72px, 16px, 72px;
 }

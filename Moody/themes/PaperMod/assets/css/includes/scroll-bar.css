@@ -36,7 +36,7 @@
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
-    background: rgb(163, 163, 165);
+    background: rgb(20, 103, 120);
 }
 
 .gist table::-webkit-scrollbar-thumb {

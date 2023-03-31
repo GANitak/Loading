@@ -50,9 +50,13 @@
     padding: 12px 65px 12px;
 }
 
-.main.main{
+.main.main {
     min-width: 1024px;
     max-width: 1300px;
     box-shadow: 0 0 72px #369f14;
     padding: 12px 65px 12px;
+}
+
+.post-header {
+    padding: 14px, 70px, 14px, 70px;
 }
