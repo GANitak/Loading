@@ -1,11 +1,11 @@
 :root {
-    --gap: 63px;
+    --gap: 43px;
     --content-gap: 33px;
     --nav-width: 1024px;
     --main-width: 992px;
     --header-height: 60px;
     --footer-height: 60px;
-    --radius: 8px;
+    --radius: 72px;
     --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
@@ -37,11 +37,13 @@
     background: var(--theme);
 }
 
-.table.greeny-box,
 .greeny-box {
-    -ms-flex-item-align: center;
+    position: flex;
+    border-radius: 25px;
+    text-align: center;
     border-collapse: collapse;
-    margin: 100px 25px 50px;
+    margin: 22px 327px 12px 327px;
+ /*    margin: 70px 25px 50px 25px; */
     font-size: 0.9em;
     font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
     min-width: 100px;

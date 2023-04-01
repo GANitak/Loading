@@ -12,12 +12,15 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}} 
+    {{- partialCached "header.html" . .Page -}}
     <i>What now</i>
     <main class="main">
         {{- block "main" . }}{{ end }}
 <table class="greeny-box">
+    <h1>h1 for baseof.html</h1>
     Static content across the baseof.html page
+    <strong>How about a strong div</strong>
+    
     <thead>
         <tr>
             <th>
