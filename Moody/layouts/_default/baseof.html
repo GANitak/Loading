@@ -3,7 +3,6 @@
 <head>
     {{- partial "head.html" . }}
 </head>
-
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
@@ -12,18 +11,57 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}} 
-    <i>What now</i>
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-<table class="greeny-box">
-    Static content across the baseof.html page
-    <thead>
-        <tr>
-            <th>
-                Let the wind show you the way<br/>
-                I feel that my lonesome is shared <br/>
-                So am i really alone? <br/>
+{{- partialCached "header.html" . .Page -}}
+<i>What now</i>
+<main class="main">
+    {{- block "main" . }}{{ end }}
+    <table class="greeny-box">
+    <div class="toc">
+        <details>
+            <summary accesskey="t" title="(Alt + t)">
+                <span class="details" style="color: rgb(9, 85, 106);">Table of Contents</span>
+            </summary>
+                <div class="inner">
+                <ul>
+                   {{/*       <a href="#create-an-article" aria-label="Create an article">Create an article</a>
+                    </li>
+                        <a href="#website-deployment" aria-label="Website deployment">Website deployment</a>
+                    </li>
+                        <a href="#search-function" aria-label="Search function">Search function</a>
+                    </li>
+                    <li>
+                        <a href="#traffic-statistics" aria-label="Traffic Statistics">Traffic Statistics</a>
+                    </li>  */}}
+                    <li>
+                        <a href="/" aria-label="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/posts/network" aria-label="Network">Network</a>
+                    </li>
+                    <li>
+                        <a href="/posts/journal" aria-label="Journal">Journal</a>
+                    </li>
+                    <li>
+                        <a href="/posts/neat" aria-label="Neat">Neat</a>
+                    </li>
+                    <li>
+                        <a href="/posts/quotes" aria-label="Quotes">Quotes</a>
+                    </li>     
+                    <li>
+                        <a href="/error404" aria-label="error404">error404</a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+        {{/*  <h1>Post for the baseof.html</h1>  */}}
+        <strong>How to make things work</strong>
+        <thead>
+            <tr>
+                <th>
+                    Let the wind show you the way<br/>
+                    I feel that my lonesome is shared <br/>
+                    So am i really alone? <br/>
                 There by the Sunset, coursing it's way in<br/>
                  the horizon
             </th>
@@ -31,6 +69,8 @@
     </thead>
 </tbody>
 </table>
+{{/*  Static content across the baseof.html page  */}}
+
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}        
 </body>
 </html>

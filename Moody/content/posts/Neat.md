@@ -7,3 +7,8 @@ layout: baseof
 ---
 
 ## Cool things happening, cool gears, cool innovations
+
+[Tidelift](https://tidelift.com/)
+
+Solutions for application development teams
+The Tidelift Subscription is a proactive, people and software-powered approach to managing open source effectively for application development teams.

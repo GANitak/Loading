@@ -2,10 +2,21 @@
     padding: 120px;
     margin-left: 20px;
     margin-right: 20px;
+    position: absolute;
 }
+
 .post-header {
     margin: 7px auto var(--content-gap) auto;
-    padding: 70px;
+    padding: 12px 70px 12px 70px;
+    background-color: #164c0b57;
+    border-style: double;
+    font-family: 'Courier New', Courier, monospace, Ubuntu;
+    font-weight: bold;
+    border-color: #3b5b17;
+    text-align: center;
+    box-sizing: content-box;
+    box-shadow: 0 0 72px #369f14;
+    padding: 12px 65px 12px;
 }
 
 .post-title {
@@ -25,6 +36,7 @@
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 5px;
 }
 
 .post-meta .i18n_list li {
@@ -263,7 +275,7 @@
     font-size: 14px;
     font-weight: normal;
 }
-
+/* 
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
@@ -410,4 +422,4 @@ h1>a>svg {
 img.in-text {
     display: inline;
     margin: auto;
-}
+} */

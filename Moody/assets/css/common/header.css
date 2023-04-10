@@ -93,3 +93,7 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+
+.post-header {
+    padding: 25px, 25px, 70px, 70px;
+}

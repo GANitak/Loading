@@ -1,0 +1,137 @@
+.page-header {
+    padding: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post-header {
+    margin: 7px auto var(--content-gap) auto;
+    padding: 12px 70px 12px 70px;
+    background-color: #164c0b57;
+    border-style: double;
+    font-family: 'Courier New', Courier, monospace, Ubuntu;
+    font-weight: bold;
+    border-color: #3b5b17;
+    text-align: center;
+    box-sizing: content-box;
+    box-shadow: 0 0 72px #369f14;
+    padding: 12px 65px 12px;
+}
+
+.post-title {
+    margin-bottom: 2px;
+    font-size: 40px;
+    color: rgb(42, 72, 42);
+}
+
+.post-description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-meta,
+.breadcrumbs {
+    color: var(--secondary);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+
+.post-meta .i18n_list li {
+    display: inline-flex;
+    list-style: none;
+    margin: auto 3px;
+    box-shadow: 0 1px 0 var(--secondary);
+}
+
+.breadcrumbs a {
+    font-size: 16px;
+}
+
+.post-content {
+    font-family: Ubuntu, monospace, cursive;
+    color: #369f14;
+    text-justify: newspaper;
+}
+
+#color: var(--content) example for _var .post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin: 24px 0 16px;
+}
+
+.post-content h1 {
+    margin: 40px auto 32px;
+    font-size: 40px;
+}
+
+.post-content h2 {
+    margin: 32px auto 24px;
+    font-size: 32px;
+}
+
+.post-content h3 {
+    font-size: 24px;
+}
+
+.post-content h4 {
+    font-size: 16px;
+}
+
+.post-content h5 {
+    font-size: 14px;
+}
+
+.post-content h6 {
+    font-size: 12px;
+}
+
+.toc { 
+    text-align: start;
+    border-radius: 2%;
+    padding: 12px 12px 12px 70px;
+    background-color: #0f2e0957;
+    border-style: dashed;
+    font-family: 'Courier New', Courier, monospace, Ubuntu;
+    font-weight: bold;
+}
+/* .post-content a,
+/* .toc a:hover {
+    box-shadow: 0 1px 0;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+} */ 
+
+.post-content a code {
+    margin: auto 0;
+    border-radius: 0;
+    box-shadow: 0 -1px 0 var(--primary) inset;
+}
+
+.post-content del {
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50%/1px 1px repeat-x;
+}
+
+.post-content dl,
+.post-content ol,
+.post-content p,
+.post-content figure,
+.post-content ul {
+    margin-bottom: var(--content-gap);
+}
+
+.post-content ol,
+.post-content ul {
+    padding-inline-start: 20px;
+}
+
+.post-content li {
+    margin-top: 5px;
+}
+
+.post-content li p {
+    margin-bottom: 0;
+}

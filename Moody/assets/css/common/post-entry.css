@@ -1,11 +1,13 @@
 .first-entry {
+    padding: 90px;
+    margin: 1px 250px 1px 250px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 320px;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
-}
+/*     margin: var(--gap) 0 calc(var(--gap) * -0.5) 0;
+ */}
 
 .first-entry .entry-header {
     overflow: hidden;
