@@ -7,11 +7,12 @@ layout: singleof
 ---
 #### 10/04/23 : A.
 
-Trust but verify.
+## -> Trust but verify.
 
-[National Institute of Standards and Technology 'NIST'](https://www.nist.gov/)
----
-[ Open Web Application Security Project 'OWASP'](https://owasp.org/Top10/)
+| [National Institute of Standards and Technology 'NIST'](https://www.nist.gov/) |
 
-[Tidelift](https://tidelift.com/)
+| [ Open Web Application Security Project 'OWASP'](https://owasp.org/Top10/) |
+
+
+
 ---

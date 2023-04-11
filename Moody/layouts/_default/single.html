@@ -38,7 +38,7 @@
         {{- if not (.Param "disableAnchoredHeadings") }}
         {{- partial "anchored_headings.html" .Content -}}
         {{- else }}{{ .Content }}{{ end }}
-        Static content across the single.html pages
+        {{/*  Static content across the single.html pages  */}}
     </div>
     {{- end }}
 
