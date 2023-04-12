@@ -53,9 +53,10 @@
     font-family: Ubuntu, monospace, cursive;
     color: #369f14;
     text-justify: newspaper;
+    padding:12px 12px 70px;
 }
-
-#color: var(--content) example for _var .post-content h3,
+/* 
+#color: var(--content) example for _var .post-content h3, */
 .post-content h4,
 .post-content h5,
 .post-content h6 {
@@ -64,6 +65,9 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
+    
+    border-radius: 123%;
+    padding: 12px 12px 12px 70px;
     font-size: 40px;
 }
 
@@ -92,7 +96,7 @@
     text-align: start;
     border-radius: 2%;
     padding: 12px 12px 12px 70px;
-    background-color: #0f2e0957;
+    background-color: #21691357;
     border-style: dashed;
     font-family: 'Courier New', Courier, monospace, Ubuntu;
     font-weight: bold;
@@ -105,10 +109,9 @@
 } 
 
 .post-content a code {
-    margin: auto 0;
+    margin: 12px auto 0;
     border-radius: 0;
     box-shadow: 0 -1px 0 var(--primary) inset;
-
 }
 
 .post-content del {
@@ -141,7 +144,12 @@
 .hljs-comment,
 .hljs-quote {
     color: #9b8d1f;
-    padding: 0 5px;
+    margin: 90px 12px 90px 0px ;
+    padding: 12px 5px 5px;
     font-size: 14px; box-sizing: ;
     font-family: 'Courier New', Courier, monospace, Ubuntu;
 }
+
+/* .hljs-code-go {
+    background-color: aqua;
+} */

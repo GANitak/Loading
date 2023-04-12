@@ -54,8 +54,9 @@
     font-family: Ubuntu, monospace, cursive;
     color: #369f14;
     text-justify: newspaper;
+  /*   background-color: var(--hljs-bg); */
 }
-#color: var(--content) example for _var
+/* #color: var(--content) example for _var */
 
 .post-content h3,
 .post-content h4,
@@ -177,7 +178,8 @@
 }
 
 .post-content .highlight:not(table) {
-    margin: 10px auto;
+    margin: 5px 1px 1px 1px;
+    margin: 10px 12px 12px 12px;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     direction: ltr;
@@ -189,10 +191,11 @@
 
 .post-content ul pre {
     margin-inline-start: calc(var(--gap) * -2);
+    
 }
 
 .post-content .highlight pre {
-    margin: 0;
+    margin: 20px;
 }
 
 .post-content .highlighttable {

@@ -5,12 +5,11 @@ draft: false
 layout: baseof
 
 ---
-
-       >>       Cool things happening, cool teams, cool gears, cool innovations          
+       >> Cool things happening, cool teams, cool gears, cool innovations      
 
 ## OpenSource principles :     
-### | Transparency | Inclusivity | Adaptability | Collaboration | Community |
-> Also Open-Source Software (OSS), is software whose source code is available for anyone to view, modify and enhance.
+>   ### || Transparency || Inclusivity || Adaptability || Collaboration || Community ||
+>Also Open-Source Software (OSS), is software whose source code is available for anyone to view, modify and enhance.
 #### Some example of people trying to make team work better :
 
 | [Linux Foundation](https://www.linuxfoundation.org/about) | Innovation comes from everywhere. We help companies and developers identify and contribute to the projects that matter. Working together, the open source community is addressing the challenges of industry and technology for the benefit of society. Code is power. Community is strength. We are one.

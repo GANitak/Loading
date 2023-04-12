@@ -47,6 +47,7 @@ code {
 div.highlight,
 pre {
     position: relative;
+    margin: 9px 12px 0px 450px ;
 }
 
 .copy-code {
@@ -66,3 +67,4 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+

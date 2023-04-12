@@ -3,7 +3,7 @@
     color: #9b8d1f;
     margin: 90px 12px 90px 0px ;
     padding: 0 5px 50px;
-    font-size: 14px; 
+    font-size: 18px; 
     font-family: 'Courier New', Courier, monospace, Ubuntu;
 }
 
@@ -42,6 +42,7 @@
 
 .hljs-section,
 .hljs-title {
+    font-size: 18px;
     color: #78bb65;
 }
 
@@ -51,11 +52,13 @@
 }
 
 .hljs {
+    margin: 90px 12px 90px 0px ;
     display: block;
     overflow-x: auto;
     background: #677199;
     color: #c0c5ce;
     padding: .5em;
+    font-size: 18px;
 }
 
 .hljs-emphasis {
@@ -64,4 +67,8 @@
 
 .hljs-strong {
     font-weight: 700;
+}
+
+.hljs-text {
+    font-size: 18px;
 }
