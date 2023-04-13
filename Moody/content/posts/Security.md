@@ -14,3 +14,4 @@ layout: singleof
 | [ Open Web Application Security Project 'OWASP'](https://owasp.org/Top10/) |
 
 ---
++[[ [Journal](../journal) ]]+

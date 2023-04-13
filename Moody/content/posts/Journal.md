@@ -34,4 +34,6 @@ So far away
 Some things can't stay, to show other colors
 Getting ready to rise again
 (...)
-``` 
+```
+
++[[ [Neat](../neat) ]]+
