@@ -70,11 +70,13 @@
     box-shadow: 0 0 72px #369f14;
     padding: 12px 65px 12px;
 } */
-
+.highlight,
 .language-go {
     min-width: 70px;
     max-width: 600px;
-
+    border-style: dashed;
+    box-decoration-break: clone;
+   /*  box-sizing: content-box; */
     font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: bolder;
     font-style: italic;

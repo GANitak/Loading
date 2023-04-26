@@ -1,13 +1,16 @@
 .hljs-comment,
 .hljs-quote {
     color: #9b8d1f;
-    margin: 90px 12px 90px 0px ;
-    padding: 0 5px 50px;
+    margin: 9px 12px 9px 12px ;
+    padding: 5px 12px 5px 12px;
     font-size: 18px; 
     font-family: 'Courier New', Courier, monospace, Ubuntu;
 }
 
-.hljs-deletion,
+.hljs-deletion{
+    color: #600707;
+}
+
 .hljs-name,
 .hljs-regexp,
 .hljs-selector-class,
@@ -52,7 +55,7 @@
 }
 
 .hljs {
-    margin: 90px 12px 90px 0px ;
+    margin: 9px 12px 9px 12px ;
     display: block;
     overflow-x: auto;
     background: #677199;

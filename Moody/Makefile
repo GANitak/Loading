@@ -12,11 +12,11 @@ submodule: ## Build the git submodule
 dev: submodule ## Run the local server
 	hugo serve . --bind=0.0.0.0
 
-issues: ## Find all the FIXMEs
-	grep -ri "FIXME" content/posts
+# issues: ## Find all the FIXMEs
+# 	grep -ri "FIXME" content/posts
 
-drafts: ## Find all the drafts
-	find "content/posts" -type f -name "*.draft"
+# drafts: ## Find all the drafts
+# 	find "content/posts" -type f -name "*.draft"
 
 .PHONY: help
 help:  ## 🤔 Show help messages for make targets

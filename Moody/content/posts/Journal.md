@@ -6,6 +6,29 @@ layout: baseof
 
 
 ---
+#### 26/04/23
+## ----   ---   --- Here we are ---   ---   ----
+
+```rust
+What is happening now?
+Well i do my best to juggle between my day job and learning to 
+build website, managed databases, and community service,
+Understand the infrastructure & scale dynamic of social
+media platforms, while learning the lingoo of the tech industry
+What do i need to do ?
+Write documentation & practice more in the terminal.
+Use this page to write my process
+Realize the the web is full of opinions and that there is
+always an opportunity to learn, so when something feels off
+Instead of pointing fingers, ask yourself why is it that way now
+and How can we improve the situation, the beauty of tech is that
+it's always evolving, and so call for change.
+To better fit the needs of every groups in the world.
+With respect for the other you will make the wheel turn faster!
+
+```
+
+---
 #### 11/04/23
 ## ----   ---   --- Here we are ---   ---   ----
 
@@ -35,5 +58,6 @@ Some things can't stay, to show other colors
 Getting ready to rise again
 (...)
 ```
-
+---
+---
 +[[ [Neat](../neat) ]]+

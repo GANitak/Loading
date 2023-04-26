@@ -48,6 +48,7 @@ div.highlight,
 pre {
     position: relative;
     margin: 9px 12px 0px 450px ;
+    padding: auto;
 }
 
 .copy-code {

@@ -10,6 +10,8 @@ layout: single
  ### This is where you can create articles about Network, store information related to the connected devices through Linux or other OS
 
 *Understand the infrastructure, so you may change it*
+
+---
 ---
 +[[ [Security](../security) ]]+
 

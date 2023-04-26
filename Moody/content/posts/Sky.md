@@ -5,6 +5,8 @@ draft: false
 layout: single
 
 ---
-
-Observe
+---
+        # Observe #
+    Play deletion
 <br/>
+---
