@@ -7,6 +7,6 @@ layout: single
 ---
 ---
         # Observe #
-    Play deletion
+    Play 
 <br/>
 ---
