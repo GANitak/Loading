@@ -7,8 +7,11 @@ layout: single
 ---
 
 ## Here is where tech-network knowledge is posted
- ### This is where you can create articles about Network, store informations related to the connected devices through Linux or other OS
----
-
+ ### This is where you can create articles about Network, store information related to the connected devices through Linux or other OS
 
 *Understand the infrastructure, so you may change it*
+
+---
+---
++[[ [Security](../security) ]]+
+

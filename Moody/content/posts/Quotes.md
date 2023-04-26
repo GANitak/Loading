@@ -23,3 +23,7 @@ Add a touch to this life notion #
 
 Also a time for the abolition of slavery, all written into what is known as the
 **Declaration of the Rights of Man and Citizen of 1793**
+
+---
+---
++[[ [Sky](../sky) ]]+

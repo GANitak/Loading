@@ -54,8 +54,9 @@
     font-family: Ubuntu, monospace, cursive;
     color: #369f14;
     text-justify: newspaper;
+  /*   background-color: var(--hljs-bg); */
 }
-#color: var(--content) example for _var
+/* #color: var(--content) example for _var */
 
 .post-content h3,
 .post-content h4,
@@ -92,7 +93,8 @@
 
 .post-content a,
 .toc a:hover {
-    box-shadow: 0 1px 0;
+    background-color: rgb(30, 146, 146);
+    box-shadow: 0 0px 0 ;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
@@ -114,6 +116,7 @@
 .post-content figure,
 .post-content ul {
     margin-bottom: var(--content-gap);
+    /* background-color: gray; */
 }
 
 .post-content ol,
@@ -177,7 +180,8 @@
 }
 
 .post-content .highlight:not(table) {
-    margin: 10px auto;
+   /*  margin: 5px 1px 1px 1px; */
+    margin: 10px 12px 12px 10px;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     direction: ltr;
@@ -189,10 +193,11 @@
 
 .post-content ul pre {
     margin-inline-start: calc(var(--gap) * -2);
+    
 }
 
 .post-content .highlight pre {
-    margin: 0;
+    margin: 20px;
 }
 
 .post-content .highlighttable {
@@ -222,10 +227,10 @@
 }
 
 .post-content pre code {
-    display: block;
-    margin: auto 0;
+    display: contents;
+    margin: 60px 12px 60px 12px;
     padding: 10px;
-    color: rgb(214, 214, 213);
+    color: rgb(107, 107, 21);
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;

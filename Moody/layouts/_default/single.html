@@ -22,8 +22,8 @@
         </div>
             <h1>Learn again</h1><br/>
             Bear with me while i make the structure of this website
-            <div>Content of your choice in div</div>
-            <p>Paragraph</p>
+            <div>Keep going</div>
+            <p></p>
         {{- end }}
     </header>
     {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden
@@ -38,7 +38,7 @@
         {{- if not (.Param "disableAnchoredHeadings") }}
         {{- partial "anchored_headings.html" .Content -}}
         {{- else }}{{ .Content }}{{ end }}
-        Static content across the single.html pages
+        {{/*  Static content across the single.html pages  */}}
     </div>
     {{- end }}
 
@@ -64,3 +64,4 @@
 <hr>
 <hr>
 {{- end }}{{/* end main */}}
+{{/*FOR when use icons such as GitHub  <a target="_blank" href="https://icons8.com/icon/WbEaekC5GFuB/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>  */}}

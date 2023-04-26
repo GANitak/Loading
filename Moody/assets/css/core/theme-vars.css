@@ -36,6 +36,15 @@
 .dark.list {
     background: var(--theme);
 }
+.main.main {
+    min-width: 1024px;
+    max-width: 1300px;
+    box-shadow: 0 0 72px #369f14;
+    padding: 49px 62px 0.009px 62px;
+    margin-bottom: 64px;
+    font-size: 1.09em;
+/*     background-color: rgb(6, 6, 6); */
+}
 
 .greeny-box {
     position: flex;
@@ -52,13 +61,34 @@
     padding: 12px 65px 12px;
 }
 
-.main.main {
-    min-width: 1024px;
-    max-width: 1300px;
-    box-shadow: 0 0 72px #369f14;
-    padding: 12px 65px 12px;
-}
-
 .post-header {
     padding: 14px, 70px, 14px, 70px;
+}
+
+/* .hljs-quote {
+    max-width: 500;
+    box-shadow: 0 0 72px #369f14;
+    padding: 12px 65px 12px;
+} */
+.highlight,
+.language-go {
+    min-width: 70px;
+    max-width: 600px;
+    border-style: dashed;
+    box-decoration-break: clone;
+   /*  box-sizing: content-box; */
+    font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: bolder;
+    font-style: italic;
+    flex: content;    
+}
+
+.language-Thoughts {
+    min-width: 70px;
+    max-width: 130px;
+
+    font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: bolder;
+    font-style: italic;
+
 }
