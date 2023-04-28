@@ -3,8 +3,9 @@ title: "Journal"
 date: 2023-03-23T17:10:05+01:00
 draft: false
 layout: baseof
-
-
+description: Journal where i express my plans and thoughts
+author: Aurora
+theme-color: #369f14
 ---
 #### 26/04/23
 ## ----   ---   --- Here we are ---   ---   ----
