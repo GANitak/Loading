@@ -3,7 +3,7 @@ title: "Quotes"
 #date: 2023-03-23T17:13:05+01:00
 draft: false
 layout: baseof
-
+description: Citations from the people of the world
 ---
 #### 27/03/23 : A.
 
