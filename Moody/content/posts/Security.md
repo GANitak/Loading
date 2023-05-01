@@ -3,7 +3,7 @@ title: "Security"
 #date: 2023-03-23T17:13:05+01:00
 draft: false
 layout: singleof
-
+description: Security content, links & ideas
 ---
 #### 10/04/23 : A.
 

@@ -37,6 +37,7 @@
     background: var(--theme);
 }
 .greeny-box {
+    display: flex;
     -ms-flex-item-align: center;
     border-collapse: collapse;
     margin: 100px 25px 50px;

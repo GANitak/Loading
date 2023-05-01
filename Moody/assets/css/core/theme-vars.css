@@ -47,18 +47,20 @@
 }
 
 .greeny-box {
-    position: flex;
+    display: flex;
     border-radius: 25px;
-    text-align: center;
+    /* text-align: center; */
     border-collapse: collapse;
     margin: 22px 327px 12px 327px;
  /*    margin: 70px 25px 50px 25px; */
     font-size: 0.9em;
     font-family: monospace, 'Segoe UI', Tahoma, Geneva, Verdana;
     min-width: 100px;
-    max-width: 502px;
+    max-width: 525px;
+    max-height: fit-content;
     box-shadow: 0 0 20px #369f14;
     padding: 12px 65px 12px;
+    align-items: center;
 }
 
 .post-header {
