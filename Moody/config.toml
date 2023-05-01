@@ -1,7 +1,7 @@
 baseURL = 'http://GANitak.io/'
 languageCode = 'en-us'
 title = 'GANitak.io'
-
+favicon = "images/IMGanit.png"
 theme= 'PaperMod'
 
 [languages]
